@@ -388,6 +388,9 @@ svn co https://github.com/teasiu/dragino2/trunk/package/teasiu/phtunnel package/
 svn co https://github.com/1715173329/tencentcloud-openwrt-plugin-ddns/trunk/tencentcloud_ddns package/lean/luci-app-tencentddns
 #阿里DDNS
 svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-app-aliddns package/new/luci-app-aliddns
+#NPS内网穿透
+svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/npc package/lean/npc
+svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/luci-app-nps package/lean/luci-app-nps
 #翻译及部分功能优化
 cp -rf ../PATCH/duplicate/addition-trans-zh-r2s ./package/lean/lean-translate
 
